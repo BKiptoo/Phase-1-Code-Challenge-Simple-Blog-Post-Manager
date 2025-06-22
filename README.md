@@ -115,4 +115,3 @@ Post Pulse uses a straightforward client-side data flow to manage blog posts. Al
 6. Post details are dynamically loaded in the main view
 7. All interactions are handled via JavaScript event delegation
 # Phase-1-Code-Challenge-Simple-Blog-Post-Manager
-# Phase-1-Code-Challenge-Simple-Blog-Post-Manager

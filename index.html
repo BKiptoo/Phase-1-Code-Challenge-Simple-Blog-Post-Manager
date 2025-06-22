@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Post Pulse</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2 class="sidebar-title">Blog Posts</h2>
+      <p id="post-count" class="post-count">0 posts</p>
+      <div id="post-list" class="post-list"></div>
+
+      <form id="new-post-form" class="post-form">
+        <input type="text" name="title" placeholder="Title" required class="input-field" />
+        <textarea name="content" placeholder="Content" required class="textarea-field"></textarea>
+        <img src="images/placeholder.png" alt="Placeholder Image" class="placeholder-image" />
+        <input type="text" name="author" placeholder="Author" required class="input-field" />
+        <button type="submit" class="submit-btn">Add Post</button>
+      </form>
+    </aside>
+
+    <main class="main-content">
+      <header class="header">
+        <h1 class="main-title">Post Pulse</h1>
+        <p class="subtitle">Dynamic blog post management</p>
+      </header>
+
+      <div id="post-detail" class="post-detail">
+        <p class="text-gray-500 italic">Select a post to view details.</p>
+      </div>
+
+      <!-- Hidden Edit Form -->
+      <form id="edit-post-form" class="edit-form hidden">
+        <h4 class="edit-title">Update Post</h4>
+        <label for="edit-title">Title:</label>
+        <input type="text" name="title" id="edit-title" class="input-field" />
+        
+        <label for="edit-content">Content:</label>
+        <textarea name="content" id="edit-content" rows="5" class="textarea-field"></textarea>
+
+        <div class="form-actions">
+          <button type="submit" class="submit-btn">Save</button>
+          <button type="button" id="cancel-edit" class="cancel-btn">Cancel</button>
+        </div>
+      </form>
+    </main>
+  </div>
+
+  <script src="src/index.js"></script>
+</body>
+</html>
