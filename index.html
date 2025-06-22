@@ -16,7 +16,7 @@
       <form id="new-post-form" class="post-form">
         <input type="text" name="title" placeholder="Title" required class="input-field" />
         <textarea name="content" placeholder="Content" required class="textarea-field"></textarea>
-        <img src="images/placeholder.png" alt="Placeholder Image" class="placeholder-image" />
+        <input type="url" name="image" placeholder="Image URL" required class="input-field" />
         <input type="text" name="author" placeholder="Author" required class="input-field" />
         <button type="submit" class="submit-btn">Add Post</button>
       </form>
@@ -35,11 +35,15 @@
       <!-- Hidden Edit Form -->
       <form id="edit-post-form" class="edit-form hidden">
         <h4 class="edit-title">Update Post</h4>
+
         <label for="edit-title">Title:</label>
         <input type="text" name="title" id="edit-title" class="input-field" />
-        
+
         <label for="edit-content">Content:</label>
         <textarea name="content" id="edit-content" rows="5" class="textarea-field"></textarea>
+
+        <label for="edit-image">Image URL:</label>
+        <input type="url" name="image" id="edit-image" class="input-field" />
 
         <div class="form-actions">
           <button type="submit" class="submit-btn">Save</button>

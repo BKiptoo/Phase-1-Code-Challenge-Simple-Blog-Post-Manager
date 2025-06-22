@@ -1,10 +1,19 @@
 {
   "posts": [
     {
-      "id": "faa6",
-      "title": "ue]9",
-      "content": "wdqoij\\",
-      "author": "cqw]"
+      "id": "a0a9",
+      "title": "Moringa",
+      "content": "Moringa",
+      "image": "https://moringa.instructure.com/courses/1019/files/543506/preview",
+      "author": "wex"
+    },
+    {
+      "id": "d53d",
+      "content": "123456",
+      "image": "https://images.unsplash.com/photo-1635351217112-e582eba3b230?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "kiptoo",
+      "date": "2025-06-22",
+      "title": "qwerty"
     }
   ]
 }
