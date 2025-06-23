@@ -44,8 +44,8 @@ function loadPostDetail(id) {
         <img src="${post.image}" alt="${post.title}" class="post-image" />
         <p class="post-content">${post.content}</p>
         <div class="action-buttons">
-          <button id="edit-btn" class="edit-btn">Edit</button>
-          <button id="delete-btn" class="delete-btn">Delete</button>
+          <button type="button" id="edit-btn" class="edit-btn">Edit</button>
+          <button type="button" id="delete-btn" class="delete-btn">Delete</button>
         </div>
       `;
 
