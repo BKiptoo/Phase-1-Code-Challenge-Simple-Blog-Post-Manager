@@ -1,4 +1,4 @@
-const baseURL = '/data/db.json'; // Path to db.json in your GitHub Pages repo
+const baseURL = 'https://BKiptoo.github.io/Phase-1-Code-Challenge-Simple-Blog-Post-Manager/db.json'; // Path to db.json in your GitHub Pages repo
 
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize localStorage with db.json data if empty
