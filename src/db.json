@@ -1,3 +1,27 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "id": "a0a9",
+      "title": "Moringa",
+      "content": "Moringa",
+      "image": "https://moringa.instructure.com/courses/1019/files/543506/preview",
+      "author": "wex"
+    },
+    {
+      "id": "d53d",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
+      "image": "https://images.unsplash.com/photo-1635351217112-e582eba3b230?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "kiptoo",
+      "date": "2025-06-22",
+      "title": "wex"
+    },
+    {
+      "id": "d2e3",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
+      "image": "https://images.unsplash.com/photo-1744649781353-8a1b70c37a77?q=80&w=1217&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "author": "Kiptoo",
+      "date": "2025-06-23",
+      "title": "Weather"
+    }
+  ]
 }
